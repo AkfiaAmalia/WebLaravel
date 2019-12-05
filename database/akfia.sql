@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 05 Des 2019 pada 14.55
+-- Waktu pembuatan: 05 Des 2019 pada 15.45
 -- Versi server: 10.4.8-MariaDB
 -- Versi PHP: 7.3.11
 
@@ -75,8 +75,8 @@ CREATE TABLE `tb_portofolios` (
 --
 
 INSERT INTO `tb_portofolios` (`id`, `icon`, `title`, `content`, `created_at`, `updated_at`) VALUES
-(1, 'fa fa-desktop', 'Watching Movie Alone Karena Jomblo', 'Genre : Drama, Mystery, Horror.', NULL, NULL),
-(2, 'glyphicon glyphicon-book', 'Reading a book ', 'Novel, comic.', NULL, NULL);
+(3, 'fa fa-desktop', 'Watching Movie', 'Genre : Drama, Mystery, Horror.', NULL, NULL),
+(4, 'glyphicon glyphicon-book', 'Reading a book ', 'Novel, comic.', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -138,7 +138,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT untuk tabel `tb_portofolios`
 --
 ALTER TABLE `tb_portofolios`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT untuk tabel `users`

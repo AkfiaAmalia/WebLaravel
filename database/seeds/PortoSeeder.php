@@ -13,7 +13,7 @@ class PortoSeeder extends Seeder
     {
         DB::table('tb_portofolios')->insert([
             'icon' => 'fa fa-desktop',
-            'title' => 'Watching Movie Alone Karena Jomblo',
+            'title' => 'Watching Movie',
             'content'=> 'Genre : Drama, Mystery, Horror.',
             ]);
         DB::table('tb_portofolios')->insert([
