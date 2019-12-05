@@ -22,16 +22,7 @@ class Portofolios extends Migration
             $table->timestamps();
           });
 
-        DB::table('tb_portofolios')->insert([
-            'icon' => 'fa fa-desktop',
-            'title' => 'Watching Movie',
-            'content'=> 'Genre : Drama, Mystery, Horror.',
-            ]);
-        DB::table('tb_portofolios')->insert([
-            'icon' => 'glyphicon glyphicon-book',
-            'title' => 'Reading a book ',
-            'content'=> 'Novel, comic.',
-            ]);
+       
         
     }
 
